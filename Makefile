@@ -44,7 +44,7 @@ $(OBJ): $(HEAD)
 	$(CC) $(CFLAGS) $(ASFLAGS) -c -o $@ $<
 
 $(EXE):	$(OBJ) $(LIB)
-	$(CC) $(CFLAGS) -o $@ $(OBJ) $(ASM) $(LIBFLAGS)
+	$(CC) $(CFLAGS) -o $@ $(OBJ) $(LIBFLAGS)
 
 clean:
 	rm -f $(EXE) $(OBJ)
