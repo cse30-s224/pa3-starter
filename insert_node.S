@@ -23,6 +23,7 @@
     .extern strcpy
     .extern strncpy
     .extern strlen
+    .extern strdup
     .text
 
     .type   insert_node, %function
