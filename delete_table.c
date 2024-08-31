@@ -1,5 +1,5 @@
 #include "Version.h"
-#if !defined(MYMAIN)
+#if !defined(MYDELTTABLE)
 #warning("using solution delete_table")
 #else
 #warning("using my delete_table.c")
