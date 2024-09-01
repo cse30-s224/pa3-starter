@@ -1,3 +1,4 @@
+#include "Version.h"
 #if !defined(MYHASH_S)
 #warning("using solution hash")
 #else
